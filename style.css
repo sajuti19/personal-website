@@ -1,14 +1,24 @@
 body{
     font-family: 'Poppins', sans-serif;
+    margin: 0;
 }
 .banner-texts h1{
-    border-left: 5px solid tomato;
+    /* border-left: 5px solid tomato; */
     font-family: 'Yeseva One', cursive;
     font-size: 55px;
     font-weight: lighter;
     padding-left: 15px;
     color: #333333;
 }
+.border{
+    float: left;
+    width: 4px;
+    height: 103px;
+    background-color: tomato;
+    margin-top: 11px;
+    border-radius: 10px;
+}
+
 .orange-color{
     color: orange;
 }
@@ -27,7 +37,7 @@ body{
 .banner-image img{
     width: 70%;
 }
-.banner-texts a{
+.button{
     text-decoration: none;
     background-color: tomato;
     color: white;
@@ -37,4 +47,101 @@ body{
 }
 .small{
     font-size: 95%;
+}
+.my-mission{
+    margin-top: 50px;
+}
+.my-mission h1{
+    text-align: center;
+    font-size: 45px;
+}
+.mission-boxes{
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+}
+.box-parts{
+    width: 30%;
+    margin: 1.5%;
+    padding: 20px;
+    border-radius: 20px;
+}
+.box-parts img{
+    width: 130px;
+}
+.box-one{
+    background-color:  #e6f5ff;
+}
+.box-two{
+    background-color: #ffe6ee;
+}
+.box-three{
+    background-color:  #ffffcc;
+}
+.sec-3-part{
+    display: flex;
+    width: 80%;
+    margin: 60px auto;
+}
+.minus-margin{
+    margin-top: -300px;
+}
+.sec-3-part img{
+    width: 35%;
+    margin: 1.5%;
+}
+.sec-3-part div{
+    width: 60%;
+    margin-top: 20px;
+}
+h3{
+    font-size: 30px;
+}
+.extra-style1{
+    margin-left: 5%;
+}
+.extra-style2{
+    margin-left: 1.5%;
+    margin-right: 5%;
+}
+.bg-1{
+    width: 200px;
+    margin-top: 200px;
+    margin-left: 50px;
+}
+.bg-2{
+    width: 200px;
+    margin-top: 250px;
+    margin-left: 1100px;
+}
+.minus-margin-1{
+    margin-top: -450px;
+}
+footer{
+    text-align: center;
+    background-color: #000d1a;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    margin-top: 80px;
+}
+.footer-line-1{
+    font-family:  'Yeseva One', cursive;
+    font-size: 30px;
+    font-weight: lighter;
+}
+.about-you{
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+}
+.about-you h1{
+    text-align: center;
+    font-size: 45px;
+}
+input{
+    width: 400px;
+    padding: 5px;
+    border: 2px solid tomato;
+    border-radius: 5px;
 }
